@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+body {
+  /* overflow-x: hidden; */
+  box-sizing: border-box;
+  height: 100%;
+}
+.container {
+  margin: 0.5rem;
+  display: grid;
+  height: 100%;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 4.5rem 80% 4.5rem;
+}
+
+.header {
+  background-color: rgba(34, 34, 33, 0.5);
+  grid-column-start: 1;
+  grid-column-end: -1;
+  margin: 0.4rem;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: rgba(34, 34, 33, 0.5);
+  margin: 0.4rem;
+  text-align: center;
+}
+.main {
+  background-color: rgba(34, 34, 33, 0.5);
+  margin: 0.4rem;
+  text-align: center;
+}
+.footer {
+  background-color: rgba(34, 34, 33, 0.5);
+  grid-column-start: 1;
+  grid-column-end: -1;
+  margin: 0.4rem;
+  text-align: center;
+}
